@@ -23,6 +23,7 @@ export async function meufilter() {
     }
     else if (cont == 1 & lista[0] == "") {
         /*bug fix clicar no botão sem ter nenhum valor não retorna 1*/
+        divresultado.innerHTML = "<p>Falta algo!</p>";
     }
     else {
         divresultado.innerHTML = "<p>" + cont + " encontrados</p>";

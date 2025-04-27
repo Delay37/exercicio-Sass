@@ -20,6 +20,7 @@ export async function meufind() {
     let divresultado = document.getElementById("resultadoFind");
     if (cont == 1 & lista[0] == "") {
         /*bug fix clicar no botão sem ter nenhum valor não retorna 1*/
+        divresultado.innerHTML = "<p>Falta algo!</p>";
     }
     else if (cont >= 1  ) {
         divresultado.style.background = " #1AAE9F";
