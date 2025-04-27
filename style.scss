@@ -32,6 +32,7 @@ body{
             
             button{
                 border-radius: 5px;
+                background-color: $cinza-escuro;
                 height: 50px;
                 width: 90%;
                 display: block;
@@ -40,15 +41,20 @@ body{
                 border-radius: 5px;
                 height: 50px;
                 width: 90%;
-                display: block;
                 border:solid 1px black;
+                background-color: $marrom;
+                display: flex; 
+                align-items: center;
             }
             div#resultadoFilter{
                 border-radius: 5px;
                 height: 50px;
                 width: 90%;
-                display: block;
                 border:solid 1px black;
+                background-color: $marrom;
+                text-align: center;
+                display: flex; 
+                align-items: center;
             }
         }
     }
