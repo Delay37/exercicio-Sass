@@ -36,6 +36,9 @@ body{
                 height: 50px;
                 width: 90%;
                 display: block;
+                &:hover{
+                    cursor: pointer;
+                }
             }
             div#resultadoFind{
                 border-radius: 5px;
